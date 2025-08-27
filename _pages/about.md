@@ -10,19 +10,19 @@ redirect_from:
 🤖 Robotics Engineer in the making  🎓 Johns Hopkins MS Robotics Student 
 
 
-Research Focus
+🔬 Research Focus
 ======
 
 I am interested in Robotics, Controls, Reinforcement Learning, and Deep Learning. Most of my work revolves around designing, controlling, and automating robots to make them smarter and more autonomous. 
 
-Experience
+💼 Experience
 ======
 
 Dynamic Trajectroy Generation of a Manipulation Arm on a Mobile Base
 ------
 I am creating a pipeline  
 
-Dosage rate for mouse for cancer treatment something like that 
+☢Dosage rate for mouse for cancer treatment something like that 
 ------
 I am Graduate Research Assistant, where I am making a complete setup for a mice for radiotherpy. bed design, collimator design, micro ct sharing bed, controlling x ray dosage rate with collimators, aethsta nozzle design.
 
@@ -54,14 +54,14 @@ Example: editing a Markdown file for a talk
 Miscilenous
 ======
 
-Team Ragnar
+🏎️ Team Ragnar
 ------
 descirbe car all 
 
-Hema labs experience
+💉 Hema labs experience
 ------
 
-Robotfest comeptition
+🛞 Robotfest comeptition
 ------
 
 
