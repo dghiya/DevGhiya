@@ -22,9 +22,9 @@ Dynamic Trajectroy Generation of a Manipulation Arm on a Mobile Base
 ------
 I am creating a pipeline  
 
-☢Dosage rate for mouse for cancer treatment something like that 
+Dosage rate for mouse for cancer treatment something like that 
 ------
-I am Graduate Research Assistant, where I am making a complete setup for a mice for radiotherpy. bed design, collimator design, micro ct sharing bed, controlling x ray dosage rate with collimators, aethsta nozzle design.
+I am Graduate Research Assistant at Advanced Medical Instrumentation and Robotics (AMIRo) Research Lab. Developing a custom robotics design for mice for FLASH raadiation therpy. We have achenived sub-militer upto 40 microns postion accuracy for argeted X-ray delivery through variable collimator configurations. Also making a modular bed design which can be used in MICRO CT machine for radiotion thterpy too.   where I am making a complete setup for a mice for radiotherpy. bed design, collimator design, micro ct sharing bed, controlling x ray dosage rate with collimators, aethsta nozzle design.
 
 Putting a car steering hanlde using UR5: Probabilitic RoadMap - Motion Planner
 ------
