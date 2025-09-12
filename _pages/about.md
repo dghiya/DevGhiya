@@ -39,14 +39,16 @@ RKDKC
 
 Semantic SLAM Detecting object is 3D map
 ------
-CV projecet
+Developed an end-to-end real-time semantic SLAM system by first capturing and manually annotating 1,000+ images of various objects across different colors and orientations to create a robust training dataset. Trained YOLOv7 model achieving 91% mAP@0.5 for accurate object detection across shape and color variations. Performed camera calibration using OpenCV checkerboard method to extract intrinsic parameters and distortion coefficients from Pi Camera v2. Developed Python streaming utilities to capture raw image data from Raspberry Pi 4 and convert to ROS bag format for consistent input processing. Integrated the trained YOLOv7 model with ORB-SLAM3 through multi-threaded ROS Noetic pipeline, where SLAM generates sparse 3D point clouds while YOLO performs real-time object detection at 30 FPS. Implemented direct semantic fusion by projecting 2D bounding box detections onto 3D map points using calibrated depth measurements, creating a dense semantic map with real-time object labeling and spatial localization.
 
 Morphing robot
 ------
+Conceptualized and designed a novel bio-inspired morphing robot system through comprehensive biomimetic research to identify 8 distinct operational configurations for versatile terrain adaptation. Developed detailed mechanical design integrating dual locomotion systems: mecanum wheels for omnidirectional ground movement and quadcopter propellers for aerial capabilities, enabling hybrid air-ground movement schemes. Created 3D CAD models and engineering drawings specifying actuator placement, joint mechanisms, and transformation sequences between configurations. Implemented basic Arduino control code for manual switching between ground-based car configuration and aerial drone configuration through servo motor actuation. Validated design feasibility through kinematic analysis and structural simulations of the morphing mechanisms. 
+
 
 2 DOF Needle Driver for Streotatic Brain Biopsy
 ------
-Show a photo with system and worked on designa and control the part using raspberry pie.   
+Developed a novel needle manipulation system featuring an aperture-inspired gripper with compliant flexure design achieving 0.1mm accuracy. Implemented three micro high-torque geared motors controlling needle insertion, rotation, and flexure-actuated gripping mechanism that moves concentrically like a camera aperture. Engineered PLA-based compliant mechanics enabling dynamic inner diameter adjustment while maintaining safe gripping forces, resulting in 24% weight reduction from previous design. Built Raspberry Pi-based control system operating at 100Hz with PID controllers for real-time motor control. Successfully demonstrated proof-of-concept for precision needle manipulation combining aperture-style gripping with compliant robotics principles for medical applications.
 
 Example: editing a Markdown file for a talk
 ![Editing a Markdown file for a talk](/images/editing-talk.png)
