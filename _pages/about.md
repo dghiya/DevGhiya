@@ -48,7 +48,7 @@ Conceptualized and designed a novel bio-inspired morphing robot system through c
 
 2 DOF Needle Driver for Streotatic Brain Biopsy
 ------
-![Device Design](/images/Biopsy.jpeg){: .align-right width="250px" }
+![Device Design]({{ site.baseurl }}/images/Biopsy.jpeg){: style="float: right; width: 250px; margin-left: 20px;"}
 
 Developed a novel needle manipulation system featuring an aperture-inspired gripper with compliant flexure design achieving 0.1mm accuracy. Implemented three micro high-torque geared motors controlling needle insertion, rotation, and flexure-actuated gripping mechanism that moves concentrically like a camera aperture. Engineered PLA-based compliant mechanics enabling dynamic inner diameter adjustment while maintaining safe gripping forces, resulting in 24% weight reduction from previous design. Built Raspberry Pi-based control system operating at 100Hz with PID controllers for real-time motor control. Successfully demonstrated proof-of-concept for precision needle manipulation combining aperture-style gripping with compliant robotics principles for medical applications.
 
