@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-🤖 Robotics Engineer in the making  🎓 Johns Hopkins MS Robotics Student 
+🤖 Robotics Engineer in the making  
+🎓 Johns Hopkins University - MS Robotics  
 
 
 🔬 Research Focus
@@ -18,9 +19,6 @@ I am interested in Robotics, Controls, Reinforcement Learning, and Deep Learning
 💼 Experience
 ======
 
-Dynamic Trajectroy Generation of a Manipulation Arm on a Mobile Base
-------
-I am creating a pipeline  
 
 Dosage rate for mouse for cancer treatment something like that 
 ------
@@ -28,14 +26,14 @@ I am Graduate Research Assistant at Advanced Medical Instrumentation and Robotic
 
 Putting a car steering hanlde using UR5: Probabilitic RoadMap - Motion Planner
 ------
-Photo of the robot doing it, explain applied faang, kd tree , done under 30 secs, 
+Implemented custom PRM-based motion planner in C++ for UR5 robotic arm to autonomously grasp and install automotive steering wheels. Built collision-free roadmap with 400 vertices in 6D configuration space, utilizing KD-tree data structure for efficient nearest neighbor queries to connect vertices within 4.0 radian distance threshold. Applied graph theory algorithms including BFS for path search through adjacency list representation, achieving O(V+E) time complexity. Leveraged FLANN library for optimized spatial indexing and integrated with MoveIt framework for collision checking using FCL backend. Achieved sub-30 second planning times for complex assembly tasks, validating approach through successful steering wheel installation in cluttered automotive workspace.
 
 Kalman Filter for postion of jackal robot
 ------
 
-manipuation of UR5
+UR5 Robotic Arm Control for Parallel Line Drawing
 ------
-RKDKC
+Programmed UR5 robot to perform "place-and-draw" task, teaching start/end positions to draw two 5cm parallel lines with 10cm spacing. Implemented three control algorithms in MATLAB: Inverse Kinematics using DH parameters and Paden-Kahan subproblems (selecting optimal solution from 8 possibilities), Resolved Rate control with discrete-time implementation, and Jacobian Transpose for trajectory tracking. Incorporated manipulability analysis for singularity avoidance and optimized control gains (K) and time steps (Δt) through iterative testing. Achieved rotation-invariant algorithm design allowing parallel line drawing regardless of initial point orientation.
 
 Semantic SLAM Detecting object is 3D map
 ------
@@ -56,15 +54,11 @@ Developed a novel needle manipulation system featuring an aperture-inspired grip
 Miscilenous
 ======
 
-🏎️ Team Ragnar
+🏎️ Formula Student Team Captain - Vehicle Design & Dynamics
 ------
-descirbe car all 
-
-💉 Hema labs experience
-------
+Led 18-member team as captain designing 200kg formula student race car, driving aerodynamic development achieving 150kg downforce at 100km/h through CFD optimization in OpenFOAM with k-ω SST turbulence modeling. Designed lightweight tubular chassis in Siemens NX achieving torsional rigidity of 1500 Nm/deg while maintaining optimal weight distribution. Optimized suspension kinematics in LOTUS for 2° camber gain, <0.5° bump steer, 45/55 weight distribution, 1.5Hz ride frequency, and 2.2Hz roll frequency. Validated vehicle dynamics through 60 km/h testing achieving 1.4g lateral acceleration, 12m turning radius, and 0.8g braking deceleration.  
 
 🛞 Robotfest comeptition
 ------
+Conceptualized amphibious rover with team of 3 for navigating 60° inclines and 15cm water depths, developing detailed CAD models and feasibility analysis. Designed hybrid wheel-paddle locomotion system with sealed drivetrain components for dual terrain capability. Created modular chassis architecture using topology optimization for 3D printed components, targeting 40% weight reduction through lattice structures and material selection (PLA/PETG). Proposed sensor suite including IMU for incline detection, ultrasonic depth sensors, and encoder feedback for closed-loop control.
 
-
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
